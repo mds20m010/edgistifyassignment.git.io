@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+}
+hr{
+    width: 10%;
+    background-color: #009688;
+    height: 5px;
+    
+}
+.getintouch{
+    background-color: #4db6ac;
+    margin: 75px 0px 0px 0px;
+    padding: 10px 600px 60px 100px;
+    font-size: 55px;
+    color: white;
+}
+.getintouch_btn{
+    width: 200px;
+    background-color:#009688;
+    border: 2px solid #029b8b;
+    border-radius: 25px;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.getintouch_btn:hover {
+    background-color: white;
+    color: #00a699;
+    font-size: 25px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px;
+    padding: 50px 150px;
+    background-color: white;
+    align-items: center;
+}
+.card{
+    text-align: center;
+}
+
+.india{
+    text-align: center;
+    background-color: white;
+    padding: 0px 200px 0px 200px;
+}
+
+.india img{
+    width: 800px;
+}
+
+.companies{
+    text-align: center;
+    background-color: white;
+    padding: 0px 200px 0px 200px;
+}
+.company{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap: 80px;
+    align-items: center;
+}
+
+.company img{
+    size: 100px;
+    width: 180px;
+    padding: 10px;
+}
+
+.contactus{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color:#4db6ac;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px;
+    font-size: 30px;
+    gap: 30px;
+    color: white;
+}
+

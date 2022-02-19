@@ -1,0 +1,131 @@
+.header {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color:#4db6ac;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .navbar img{
+    width: 180px;
+    padding-left: 85px;
+}
+
+.header .nav-menu{
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.header .nav-item{
+    padding: 1rem;
+    font-weight: 120px;
+    font-size: 20px;
+}
+
+.header .nav-item:hover {
+    padding: 1rem;
+    font-weight: 160px;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.menubtn{
+    background-color:#4db6ac;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.menubtn:hover {
+    background-color: white;
+    color: #00a699;
+    font-size: 22px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:755px) {
+    .header{
+        height: 60px;
+        max-width: 100%;
+        background-color: #4db6ac;
+    }
+    .header .navbar{
+        max-width: 100%;
+        padding: 5px;        
+    }
+    .header .navbar img{
+        width: 130px;
+        padding-left: 10px;
+        padding-right: 550px;
+    }
+    .hamburger{
+        display: block  ;
+    }
+    .header .nav-menu{
+        align-items: flex-start;
+        padding-right: 10px;
+        position: fixed;
+        right: -100%;
+        top: -1rem;
+        flex-direction: column;
+        background-color: #009688;
+        width: 25%;
+        height: 100%;
+    }
+    .header .nav-menu.active{
+        right: 0px;
+        transition: 0.5s;
+    }
+    .header .nav-item{
+        padding: 0.5rem;
+        font-weight: 60px;
+        font-size: 20px;
+    }
+    .header .nav-item:hover {
+        padding: 0.5rem;
+        font-weight: 80px;
+        font-size: 22px;
+        transition: 0.5s;
+    }
+    .menubtn{
+        background-color:#009688;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 50;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    .menubtn:hover {
+        background-color: white;
+        color: #009688;
+        font-size: 20.5px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.footer_items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 80px;
+    padding: 50px 150px;
+    background-color: white;
+    align-items: top;
+    background-color: #009688;
+    font-size: 20px;
+    color: white;
+}
+.footer_items img{
+    width: 200px;
+}
+
+.bottom{
+    margin-top: 3px;
+    display: flex;
+    gap: 80px;
+    background-color: #009688;
+    padding: 0px 150px;
+    color: white;
+}
+.left{
+    margin-left: 200px;
+}

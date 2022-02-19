@@ -1,0 +1,19 @@
+.stripb{
+    height: 200px;
+    background-color:#d7d8d8;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 200px 20px 300px;
+    gap: 100px;
+}
+
+.stripa{
+    height: 200px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 300px 20px 200px;
+    gap: 100px;
+}

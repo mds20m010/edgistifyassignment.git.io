@@ -1,0 +1,48 @@
+.WhyCards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 80px;
+    padding: 50px 150px;
+    background-color: white;
+    align-items: center;
+}
+.emailform{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 150px;
+    background-color:#4db6ac;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px;
+    font-size: 30px;
+    gap: 30px;
+    color: white;
+}
+
+.form{
+    width: 300px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.btn{
+    background-color: #009688;
+    width: 60px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+.btn:hover{
+    width: 65px;
+    height: 55px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 35px;
+    transition: 0.3s;
+}

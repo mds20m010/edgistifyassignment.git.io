@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/edgistifyassignment/static/css/main.91d2fbcb.css",
+    "main.js": "/edgistifyassignment/static/js/main.35542a02.js",
+    "static/media/edgistify-network.gif": "/edgistifyassignment/static/media/edgistify-network.5e395460c117339fcdda.gif",
+    "static/media/jio.png": "/edgistifyassignment/static/media/jio.2c752b43c82328d04d53.png",
+    "static/media/marico.png": "/edgistifyassignment/static/media/marico.9a39edd80adbb1aa14f7.png",
+    "static/media/grofers.png": "/edgistifyassignment/static/media/grofers.271eb3d706989908b6b9.png",
+    "static/media/pureplay.webp": "/edgistifyassignment/static/media/pureplay.c810cf0ad6b24ac59d96.webp",
+    "static/media/wakefit.png": "/edgistifyassignment/static/media/wakefit.598efdca923ec3eeae8f.png",
+    "static/media/strongNetwork.svg": "/edgistifyassignment/static/media/strongNetwork.91e9486b0581c6ff5a3c3c0db4f06eac.svg",
+    "static/media/flexibility.svg": "/edgistifyassignment/static/media/flexibility.5096570ada7bc49475296f0b1f51b0f8.svg",
+    "static/media/platformDriven.svg": "/edgistifyassignment/static/media/platformDriven.183e87720370b41b18d95bf863c056ca.svg",
+    "static/media/operationalEfficiency.svg": "/edgistifyassignment/static/media/operationalEfficiency.7e8a1c4d2647a2cd63ff89e6729863c4.svg",
+    "static/media/ecommerceFulfillment.svg": "/edgistifyassignment/static/media/ecommerceFulfillment.88f046432ebd0deaf842a134a8e2bcb2.svg",
+    "static/media/retailFulfillment.svg": "/edgistifyassignment/static/media/retailFulfillment.710a7f1291f328a601ae42d265f27615.svg",
+    "index.html": "/edgistifyassignment/index.html",
+    "static/media/startups.svg": "/edgistifyassignment/static/media/startups.e031c80240ed82c06a1c777d3fdb690b.svg",
+    "main.91d2fbcb.css.map": "/edgistifyassignment/static/css/main.91d2fbcb.css.map",
+    "main.35542a02.js.map": "/edgistifyassignment/static/js/main.35542a02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91d2fbcb.css",
+    "static/js/main.35542a02.js"
+  ]
+}
